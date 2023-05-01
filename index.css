@@ -42,7 +42,11 @@ button {
 .btn-reset {
    background: #D45366;
 }
-
+@media (min-width: 3500px) {
+   body {
+      background-size: cover;
+   }
+}
 @media (max-width: 600px) {
    .container {
       max-width: 100%;
